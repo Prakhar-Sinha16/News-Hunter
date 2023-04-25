@@ -54,17 +54,6 @@ function App() {
     }
   }
 
-// export default class App extends Component {
-//   render() { //Render is a lifecycle method.
-//     return (
-//       <div>
-//         {/* <NavBar/> */}
-//         <NavBar title ='TextUtils' mode = {mode} greenModeTheme={greenmode} toggleButton={toggleButton}/>
-//         <News pageSize={6}/>
-//       </div>
-//     )
-//   }
-// }
 return (
   <>
   <Router>
