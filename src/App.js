@@ -57,7 +57,7 @@ function App() {
 return (
   <>
   <Router>
-    <NavBar title ='TextUtils' mode = {mode} greenModeTheme={greenmode} toggleButton={toggleButton}/>
+    <NavBar title ='News Hunter' mode = {mode} greenModeTheme={greenmode} toggleButton={toggleButton}/>
     <div className="container my-3">
     <Switch>
           <Route path="/about">
